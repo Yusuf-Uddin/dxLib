@@ -1,0 +1,6 @@
+<meta>
+    <info author="Dice" version="1.0" description="A simple dx libraby"/>
+
+    <script src="main.lua" type="client"/>
+    <script src="elements/button.lua" type="client"/>
+</meta>
