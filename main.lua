@@ -27,6 +27,6 @@ function dxDrawOutlinedRectangle(x, y, width, height, color, lineColor)
 end
 
 --[[ DX ELEMENTS
-    dxCreateButton(x, y, w, h, color, lineColor, placeholder)
+    dxCreateButton(x, y, w, h, color, lineColor, fontColor, placeholder)
     isCursorOnElement(element)
 ]]--

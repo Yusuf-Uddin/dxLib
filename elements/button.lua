@@ -17,8 +17,6 @@ function dxCreateButton(x, y, w, h, color, lineColor, fontColor, placeholder)
     return dxElements.buttons[id]
 end
 
-button1 = dxCreateButton(500, 500, 1000, 200, tocolor(0, 0, 0, 255), tocolor(255, 0, 0, 255), tocolor(255, 255, 255, 255), "Login")
-
 function renderButtons()
     if #dxElements.buttons > 0 then
         for k, button in pairs(dxElements.buttons) do
